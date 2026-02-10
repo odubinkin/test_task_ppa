@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import { getSupportedCurrencies } from "@/lib/currency";
 
-import { CurrencySelector } from "./currency-selector";
+import { CurrencySelector } from "./CurrencySelector";
 
 const refreshMock = vi.fn();
 
