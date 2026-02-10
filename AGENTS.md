@@ -1,1 +1,0 @@
-.agentplane/AGENTS.md
