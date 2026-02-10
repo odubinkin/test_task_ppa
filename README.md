@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PPA Real Estate Catalog
 
-## Getting Started
+## О проекте
+Мини-приложение-каталог недвижимости, выполненное как тестовое задание для Ассоциации Недвижимости Пхукета (PPA).
 
-First, run the development server:
+Проект демонстрирует:
+- SSR-рендеринг страницы каталога;
+- переключение валюты с сохранением выбора в cookie;
+- отображение карточек недвижимости из локального JSON-источника;
+- покрытие критичной логики тестами.
 
+## Спецификация
+- [spec.md](./spec.md)
+
+## Технологии
+- Next.js 16 (App Router)
+- TypeScript (strict mode)
+- React 19
+- Tailwind CSS 4
+- shadcn-style UI components
+- Vitest
+- Testing Library
+
+## Установка зависимостей
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Сборка проекта
+```bash
+npm run build
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Запуск тестов
+Однократный запуск:
+```bash
+npm test
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Режим наблюдения:
+```bash
+npm run test:watch
+```
 
-## Learn More
+## Запуск приложения
+Режим разработки:
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+После запуска откройте:
+- http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Запуск production-версии локально:
+```bash
+npm run build
+npm start
+```
