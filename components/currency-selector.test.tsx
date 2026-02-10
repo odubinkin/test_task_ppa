@@ -42,14 +42,16 @@ describe("CurrencySelector", () => {
   it("renders supported currencies with the provided current value", () => {
     render(<CurrencySelector currentCurrency="EUR" />);
 
-    const select = screen.getByLabelText("Валюта:") as HTMLSelectElement;
+    const select = screen.getByTestId("currency-select") as HTMLSelectElement;
     const supportedCurrencies = getSupportedCurrencies();
 
     expect(select.value).toBe("EUR");
     expect(select.options).toHaveLength(supportedCurrencies.length);
 
     for (const currency of supportedCurrencies) {
-      expect(screen.getByRole("option", { name: currency })).toBeInTheDocument();
+      const option = screen.getByTestId(`currency-option-${currency}`) as HTMLOptionElement;
+      expect(option).toBeInTheDocument();
+      expect(option.value).toBe(currency);
     }
   });
 
@@ -57,7 +59,7 @@ describe("CurrencySelector", () => {
   it("stores selected currency in cookie and refreshes route on change", () => {
     render(<CurrencySelector currentCurrency="THB" />);
 
-    const select = screen.getByLabelText("Валюта:");
+    const select = screen.getByTestId("currency-select");
 
     fireEvent.change(select, { target: { value: "USD" } });
 

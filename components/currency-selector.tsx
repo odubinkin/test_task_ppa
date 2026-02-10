@@ -25,12 +25,13 @@ export function CurrencySelector({ currentCurrency }: { currentCurrency: Currenc
       <span>Валюта:</span>
       <select
         id="currency-select"
+        data-testid="currency-select"
         className="rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-900 outline-none focus:ring-2 focus:ring-zinc-300"
         value={currentCurrency}
         onChange={(event) => handleCurrencyChange(event.target.value as CurrencyCode)}
       >
         {currencies.map((currency) => (
-          <option key={currency} value={currency}>
+          <option key={currency} value={currency} data-testid={`currency-option-${currency}`}>
             {currency}
           </option>
         ))}
