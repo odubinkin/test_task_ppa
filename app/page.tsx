@@ -27,18 +27,24 @@ export default async function Home() {
   const properties = getProperties();
 
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900">
-      <header className="mx-auto flex w-full max-w-5xl items-center justify-end px-6 py-4">
-        <CurrencySelector currentCurrency={currentCurrency} />
+    <div className="catalog-shell min-h-screen text-zinc-900">
+      <header className="sticky top-0 z-20 border-b border-white/30 bg-white/70 backdrop-blur-xl">
+        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">Phuket Collection</p>
+            <p className="text-sm font-medium text-zinc-700">Каталог недвижимости</p>
+          </div>
+          <CurrencySelector currentCurrency={currentCurrency} />
+        </div>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl px-6 py-10">
-        <div className="mb-8 space-y-2">
-          <h1 className="text-3xl font-semibold">Объекты недвижимости</h1>
-          <p className="text-sm text-zinc-600">Текущая валюта: {currentCurrency}</p>
+      <main className="mx-auto w-full max-w-6xl px-6 pb-14 pt-10">
+        <div className="mb-8 rounded-2xl border border-white/50 bg-white/65 p-6 shadow-sm backdrop-blur">
+          <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 md:text-4xl">Недвижимость на Пхукете</h1>
+          <p className="mt-2 text-sm text-zinc-600">Выберите интересующий вас объект</p>
         </div>
 
-        <section className="grid grid-cols-1 gap-5 md:grid-cols-2">
+        <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {properties.map((property) => (
             <PropertyCard key={property.name} property={property} currency={currentCurrency} />
           ))}
