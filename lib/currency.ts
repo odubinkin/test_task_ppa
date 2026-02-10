@@ -37,6 +37,13 @@ export function isCurrencyCode(value: string): value is CurrencyCode {
 }
 
 /**
+ * Returns supported currencies derived from `exchange_rates.json`.
+ */
+export function getSupportedCurrencies(): CurrencyCode[] {
+  return [...RATE_KEYS];
+}
+
+/**
  * Validates and normalizes exchange rates shape using keys from `exchange_rates.json`.
  *
  * @param rates Candidate rates object.
