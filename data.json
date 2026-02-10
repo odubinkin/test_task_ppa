@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Seaview Residence Phuket",
+    "description": "Апартаменты с панорамным видом на море и террасой.",
+    "price": 4200000,
+    "area": 58,
+    "tags": ["у моря", "готов к заселению", "инвестиция"],
+    "image": "seaview-residence-phuket.jpg",
+    "contacts": {
+      "telegram": "https://t.me/seaview_phuket",
+      "phone": "+66-81-245-1100",
+      "email": "sales@seaview-phuket.example"
+    }
+  },
+  {
+    "name": "Laguna Park Villas",
+    "description": "Вилла с приватным бассейном в охраняемом комплексе.",
+    "price": 9800000,
+    "area": 164,
+    "tags": ["вилла", "бассейн", "премиум"],
+    "image": "laguna-park-villas.jpg",
+    "contacts": {
+      "whatsapp": "https://wa.me/66851234567",
+      "line": "https://line.me/ti/p/@laguna_villas"
+    }
+  },
+  {
+    "name": "Bang Tao Smart Condo",
+    "description": "Современный кондоминиум рядом с инфраструктурой и пляжем.",
+    "price": 2950000,
+    "area": 41,
+    "tags": ["кондо", "умный дом"],
+    "image": "bang-tao-smart-condo.jpg",
+    "contacts": {
+      "telegram": "https://t.me/bangtao_smart_condo",
+      "whatsapp": "https://wa.me/66987654321",
+      "email": "hello@bangtao-smart.example"
+    }
+  },
+  {
+    "name": "Rawai Family Townhouse",
+    "description": "Двухэтажный таунхаус для семьи с парковкой и садом.",
+    "price": 3600000,
+    "area": 96,
+    "tags": ["семейный формат", "парковка", "тихий район"],
+    "image": "rawai-family-townhouse.jpg",
+    "contacts": {
+      "phone": "+66-89-660-2234"
+    }
+  },
+  {
+    "name": "Patong City Studio",
+    "description": "Компактная студия в центре района Patong.",
+    "price": 1750000,
+    "area": 29,
+    "tags": ["центр", "бюджетный вариант"],
+    "image": "patong-city-studio.jpg",
+    "contacts": {
+      "email": "patong-studio@realty.example"
+    }
+  },
+  {
+    "name": "Nai Harn Garden Apartments",
+    "description": "Апартаменты рядом с парком, удобны для долгосрочной аренды.",
+    "price": 3150000,
+    "area": 47,
+    "tags": ["долгосрочная аренда", "рядом парк", "ликвидность"],
+    "image": "nai-harn-garden-apartments.jpg",
+    "contacts": {
+      "line": "https://line.me/ti/p/@naiharn_garden",
+      "phone": "+66-92-118-4500",
+      "email": "sales@naiharn-garden.example"
+    }
+  },
+  {
+    "name": "Kata Hills Penthouse",
+    "description": "Пентхаус с большой террасой и видом на закат.",
+    "price": 12800000,
+    "area": 182,
+    "tags": ["пентхаус", "вид на закат", "терраса"],
+    "image": "kata-hills-penthouse.jpg",
+    "contacts": {
+      "telegram": "https://t.me/kata_hills_sales",
+      "whatsapp": "https://wa.me/66880011223",
+      "phone": "+66-88-001-1223"
+    }
+  },
+  {
+    "name": "Chalong Marina Loft",
+    "description": "Лофт в районе марины с высоким спросом на аренду.",
+    "price": 2550000,
+    "area": 38,
+    "tags": ["лофт", "рядом марина", "арендный спрос"],
+    "image": "chalong-marina-loft.jpg",
+    "contacts": {
+      "telegram": "https://t.me/chalong_marina_loft",
+      "line": "https://line.me/ti/p/@chalong_loft",
+      "email": "info@chalong-loft.example"
+    }
+  },
+  {
+    "name": "Surin Beach Duplex",
+    "description": "Двухуровневые апартаменты в пешей доступности от пляжа Surin.",
+    "price": 5650000,
+    "area": 84,
+    "tags": ["дуплекс", "пешком до пляжа", "семейный формат"],
+    "image": "surin-beach-duplex.jpg",
+    "contacts": {
+      "whatsapp": "https://wa.me/66900123456",
+      "phone": "+66-90-012-3456",
+      "email": "sales@surin-duplex.example"
+    }
+  },
+  {
+    "name": "Kamala Sunset Condo",
+    "description": "Кондоминиум с видом на холмы и удобной транспортной доступностью.",
+    "price": 2380000,
+    "area": 35,
+    "tags": ["кондо", "вид на холмы", "готов к аренде"],
+    "image": "kamala-sunset-condo.jpg",
+    "contacts": {
+      "telegram": "https://t.me/kamala_sunset_condo",
+      "line": "https://line.me/ti/p/@kamala_sunset"
+    }
+  }
+]
