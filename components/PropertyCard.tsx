@@ -5,8 +5,9 @@ import { useState } from "react";
 import Image from "next/image";
 import { House, Mail, MessageCircle, Phone, Send, Sparkles } from "lucide-react";
 
-import { type CurrencyCode, formatPriceFromThb } from "@/lib/currency";
+import { type CurrencyCode } from "@/lib/currency";
 import { type PropertyContacts, type PropertyItem } from "@/lib/properties";
+import { Price } from "@/components/Price";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -55,7 +56,6 @@ function getContactIcon(type: keyof PropertyContacts) {
  */
 export function PropertyCard({ property, currency }: PropertyCardProps) {
   const [imageFailed, setImageFailed] = useState(false);
-  const formattedPrice = formatPriceFromThb(property.price, currency);
   const contactEntries = Object.entries(property.contacts) as Array<[keyof PropertyContacts, string | undefined]>;
   const visibleContacts = contactEntries.filter(([, value]) => Boolean(value));
 
@@ -95,7 +95,9 @@ export function PropertyCard({ property, currency }: PropertyCardProps) {
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
-          <Badge className="rounded-md bg-zinc-900 px-2.5 py-1 text-[13px] text-white hover:bg-zinc-800">{formattedPrice}</Badge>
+          <Badge className="rounded-md bg-zinc-900 px-2.5 py-1 text-[13px] text-white hover:bg-zinc-800">
+            <Price amountInThb={property.price} currency={currency} />
+          </Badge>
           <Badge variant="secondary" className="rounded-md px-2.5 py-1 text-[13px]">
             {property.area} м²
           </Badge>
