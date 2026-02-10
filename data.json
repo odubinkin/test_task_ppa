@@ -5,7 +5,7 @@
     "price": 4200000,
     "area": 58,
     "tags": ["у моря", "готов к заселению", "инвестиция"],
-    "image": "seaview-residence-phuket.jpg",
+    "image": "seaview-residence-phuket.webp",
     "contacts": {
       "telegram": "https://t.me/seaview_phuket",
       "phone": "+66-81-245-1100",
@@ -18,7 +18,7 @@
     "price": 9800000,
     "area": 164,
     "tags": ["вилла", "бассейн", "премиум"],
-    "image": "laguna-park-villas.jpg",
+    "image": "laguna-park-villas.webp",
     "contacts": {
       "whatsapp": "https://wa.me/66851234567",
       "line": "https://line.me/ti/p/@laguna_villas"
@@ -30,7 +30,7 @@
     "price": 2950000,
     "area": 41,
     "tags": ["кондо", "умный дом"],
-    "image": "bang-tao-smart-condo.jpg",
+    "image": "bang-tao-smart-condo.webp",
     "contacts": {
       "telegram": "https://t.me/bangtao_smart_condo",
       "whatsapp": "https://wa.me/66987654321",
@@ -43,7 +43,7 @@
     "price": 3600000,
     "area": 96,
     "tags": ["семейный формат", "парковка", "тихий район"],
-    "image": "rawai-family-townhouse.jpg",
+    "image": "rawai-family-townhouse.webp",
     "contacts": {
       "phone": "+66-89-660-2234"
     }
@@ -54,7 +54,7 @@
     "price": 1750000,
     "area": 29,
     "tags": ["центр", "бюджетный вариант"],
-    "image": "patong-city-studio.jpg",
+    "image": "patong-city-studio.webp",
     "contacts": {
       "email": "patong-studio@realty.example"
     }
@@ -65,7 +65,7 @@
     "price": 3150000,
     "area": 47,
     "tags": ["долгосрочная аренда", "рядом парк", "ликвидность"],
-    "image": "nai-harn-garden-apartments.jpg",
+    "image": "nai-harn-garden-apartments.webp",
     "contacts": {
       "line": "https://line.me/ti/p/@naiharn_garden",
       "phone": "+66-92-118-4500",
@@ -78,7 +78,7 @@
     "price": 12800000,
     "area": 182,
     "tags": ["пентхаус", "вид на закат", "терраса"],
-    "image": "kata-hills-penthouse.jpg",
+    "image": "kata-hills-penthouse.webp",
     "contacts": {
       "telegram": "https://t.me/kata_hills_sales",
       "whatsapp": "https://wa.me/66880011223",
@@ -91,7 +91,7 @@
     "price": 2550000,
     "area": 38,
     "tags": ["лофт", "рядом марина", "арендный спрос"],
-    "image": "chalong-marina-loft.jpg",
+    "image": "chalong-marina-loft.webp",
     "contacts": {
       "telegram": "https://t.me/chalong_marina_loft",
       "line": "https://line.me/ti/p/@chalong_loft",
@@ -104,7 +104,7 @@
     "price": 5650000,
     "area": 84,
     "tags": ["дуплекс", "пешком до пляжа", "семейный формат"],
-    "image": "surin-beach-duplex.jpg",
+    "image": "surin-beach-duplex.webp",
     "contacts": {
       "whatsapp": "https://wa.me/66900123456",
       "phone": "+66-90-012-3456",
@@ -117,7 +117,7 @@
     "price": 2380000,
     "area": 35,
     "tags": ["кондо", "вид на холмы", "готов к аренде"],
-    "image": "kamala-sunset-condo.jpg",
+    "image": "kamala-sunset-condo.webp",
     "contacts": {
       "telegram": "https://t.me/kamala_sunset_condo",
       "line": "https://line.me/ti/p/@kamala_sunset"
